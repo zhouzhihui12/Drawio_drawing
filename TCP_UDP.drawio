@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T03:03:31.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.8.20" etag="SpYR85VmKCRnAPvK6m_w" type="github"><diagram name="第 1 页" id="3tS3NE0jxbSOC0BookcE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-14T03:22:49.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Nvvtwd9XlzJdliZe3jUK" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="3tS3NE0jxbSOC0BookcE">
+    <mxGraphModel dx="987" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-1" target="ZRNS-KBWd8ZVCZ68WGnK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-1" value="客户端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-2" target="ZRNS-KBWd8ZVCZ68WGnK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-4" target="ZRNS-KBWd8ZVCZ68WGnK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-4" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-6" target="ZRNS-KBWd8ZVCZ68WGnK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-8" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-10" target="ZRNS-KBWd8ZVCZ68WGnK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-10" value="服务器" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-11" target="ZRNS-KBWd8ZVCZ68WGnK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-11" value="建立socket" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-13" target="ZRNS-KBWd8ZVCZ68WGnK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-13" value="bind" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-15" target="ZRNS-KBWd8ZVCZ68WGnK-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-15" value="accept,阻塞在accept，等待客户连接，即等待三次握手" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-32" value="客户端开启连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-36" value="得到client连接的connfd，然后处理该connfd发送的内容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-42" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;verticalLabelPosition=middle;verticalAlign=middle;fontFamily=Verdana;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="380" y="630" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
