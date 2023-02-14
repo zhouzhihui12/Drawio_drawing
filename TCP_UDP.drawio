@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T04:17:17.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="C_rbKQdb3r56togfwWV-" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T06:31:19.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rpuxKz1UBiecWoqFGvD4" version="20.8.20" type="github">
   <diagram name="第 1 页" id="3tS3NE0jxbSOC0BookcE">
     <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -216,6 +216,38 @@
         </mxCell>
         <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-114" value="相比左边就是少了一个三次连接过程，&lt;br style=&quot;font-size: 13px;&quot;&gt;服务器accept，客户端connect，&lt;br style=&quot;font-size: 13px;&quot;&gt;然后建立3次连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Verdana;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="855" y="455" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=13;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-119" target="ZRNS-KBWd8ZVCZ68WGnK-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-119" value="listenfd建立" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=13;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-120" target="ZRNS-KBWd8ZVCZ68WGnK-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-120" value="socket" style="whiteSpace=wrap;html=1;fontSize=13;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=13;" edge="1" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-122" target="ZRNS-KBWd8ZVCZ68WGnK-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-122" value="bind" style="whiteSpace=wrap;html=1;fontSize=13;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-124" value="listen" style="whiteSpace=wrap;html=1;fontSize=13;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-127" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Verdana;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1000" as="sourcePoint" />
+            <mxPoint x="40" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="1440" />
+              <mxPoint x="240" y="1440" />
+              <mxPoint x="240" y="1000" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
