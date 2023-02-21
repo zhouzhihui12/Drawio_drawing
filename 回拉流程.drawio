@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T03:55:16.329Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="XZh3TeKho-_eEWJir1Ly" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T04:14:03.268Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="6P7sUWKRseCMj3Gk75Ta" version="20.8.20" type="github">
   <diagram name="第 1 页" id="8jlNIsnWA2ENxNNo2rSE">
     <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
           <mxGeometry x="470" y="485" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tGeUGz7FxUVsNur8womr-59" value="void PhaseLongIvusThread::write_file_thread()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="80" width="280" height="40" as="geometry" />
+          <mxGeometry x="710" y="80" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tGeUGz7FxUVsNur8womr-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-60" target="tGeUGz7FxUVsNur8womr-61">
           <mxGeometry relative="1" as="geometry" />
@@ -185,8 +185,43 @@
         <mxCell id="tGeUGz7FxUVsNur8womr-69" value="m_rear_queue和&lt;span style=&quot;&quot;&gt;m_rear_queuewrite，是没有长度限制的，一直都是push&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" width="410" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-70" target="tGeUGz7FxUVsNur8womr-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tGeUGz7FxUVsNur8womr-70" value="B模刷新" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="110" width="120" height="80" as="geometry" />
+          <mxGeometry x="1080" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-73" value="void ImIvusOctAnalyzer::slotIvusOctBModeTimeout()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="80" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="445" />
+              <mxPoint x="1010" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-74" value="m_IvusRearEndQueue，得到灰度图，然后显示" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="415" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-77" target="tGeUGz7FxUVsNur8womr-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-77" value="timeout触发&lt;br&gt;30ms" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="265" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-82" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="365" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tGeUGz7FxUVsNur8womr-83" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="270" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
