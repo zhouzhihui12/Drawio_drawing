@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T07:36:53.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eBtNcasYouKdRDq9q5Cs" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T01:34:05.759Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="YYDRCczZY7idj_uviuwg" version="20.8.20" type="github">
   <diagram name="第 1 页" id="8jlNIsnWA2ENxNNo2rSE">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,16 +104,16 @@
         <mxCell id="tGeUGz7FxUVsNur8womr-39" value="m_raw_queue&lt;br&gt;空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="270" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-41" target="pzW2GILvTxbZ9ikMvrB7-4">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tGeUGz7FxUVsNur8womr-41" target="pzW2GILvTxbZ9ikMvrB7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tGeUGz7FxUVsNur8womr-41" value="取出数据做一遍算法，得到rear数据，将rear数据push到两个队列&lt;br&gt;m_rear_queue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;m_rear_queuewrite" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="tGeUGz7FxUVsNur8womr-41" value="取出m_raw_queue&lt;br&gt;数据做一遍算法，得到rear数据，将rear数据push到两个队列&lt;br&gt;m_rear_queue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;m_rear_queuewrite" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="390" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tGeUGz7FxUVsNur8womr-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tGeUGz7FxUVsNur8womr-46" target="tGeUGz7FxUVsNur8womr-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-46">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tGeUGz7FxUVsNur8womr-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="690" as="targetPoint" />
           </mxGeometry>
@@ -230,7 +230,7 @@
         <mxCell id="tGeUGz7FxUVsNur8womr-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tGeUGz7FxUVsNur8womr-89" target="tGeUGz7FxUVsNur8womr-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-89">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tGeUGz7FxUVsNur8womr-89" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1650" y="305" as="targetPoint" />
           </mxGeometry>
@@ -248,7 +248,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tGeUGz7FxUVsNur8womr-91" target="pzW2GILvTxbZ9ikMvrB7-1">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tGeUGz7FxUVsNur8womr-91" target="pzW2GILvTxbZ9ikMvrB7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tGeUGz7FxUVsNur8womr-91" value="从最大的背景图里面截取一部分图片进行显示" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -263,17 +263,23 @@
         <mxCell id="tGeUGz7FxUVsNur8womr-97" value="总结：三个线程，两个定时器；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="820" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-1" value="更新右上角显示帧数，计数器为" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-1" value="更新右上角显示帧数，计数器为" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1425" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pzW2GILvTxbZ9ikMvrB7-4" target="tGeUGz7FxUVsNur8womr-46">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pzW2GILvTxbZ9ikMvrB7-4" target="tGeUGz7FxUVsNur8womr-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pzW2GILvTxbZ9ikMvrB7-4" target="pzW2GILvTxbZ9ikMvrB7-1">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pzW2GILvTxbZ9ikMvrB7-4" target="pzW2GILvTxbZ9ikMvrB7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pzW2GILvTxbZ9ikMvrB7-4" value="m_ivuslong_currentframe&lt;br&gt;增加1，统计处理的帧数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pzW2GILvTxbZ9ikMvrB7-4" value="m_ivuslong_currentframe&lt;br&gt;增加1，统计处理的帧数" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="402" y="520" width="144" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2DpM_3jne9sqFfvzke5W-2" value="上述操作要在30ms内完成；因为1s采集33帧；&lt;br&gt;这里限制队列长度为10；要等队列里面数据被处理完&lt;br&gt;然后再接收下一帧数据，然后处理。最后是慢在了这里；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry y="880" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2DpM_3jne9sqFfvzke5W-4" value="因此这个解析线程一个循环也要再30ms内完成，&lt;br&gt;但是如果做血流，时间就超过了，就会导致时间不够；&lt;br&gt;因此不能做血流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
