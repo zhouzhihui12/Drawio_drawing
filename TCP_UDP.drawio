@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T01:47:27.900Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="VrzYdejI8Yzh4iEUb2X-" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T02:07:33.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ES5p5gMBG_7eAH9cddRk" version="20.8.21" type="github">
   <diagram name="第 1 页" id="3tS3NE0jxbSOC0BookcE">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -379,8 +379,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1raRozILUYv7EW11ZRnK-1" value="备注：&lt;br&gt;1.selec函数：&lt;br&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int select(int maxfdp1, fd_set* readset, fd_set* writeset, fd_set* exceptset,const struct timeval* timeout);&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1680" width="660" height="70" as="geometry" />
+        <mxCell id="1raRozILUYv7EW11ZRnK-1" value="备注：&lt;br&gt;1.selec函数：&lt;br&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int select(int maxfdp1, fd_set* readset, fd_set* writeset, fd_set* exceptset,const struct timeval* timeout);&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;readset是表示该描述符可读；一般只要这个就够了，表示对端发来信息，这边可以读取;即可以进行read&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;writeset是表示该描述符可写；这个就是可以对该描述符进行write();&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;exceptset是表示该描述符读写异常;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;上述参数为NULL则表示不检测该项目&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;timteout是如果在该时间内，如果上述条件没有触发，则return 0;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1655" width="660" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
