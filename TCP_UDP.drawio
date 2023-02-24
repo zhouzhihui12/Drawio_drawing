@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T02:07:33.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ES5p5gMBG_7eAH9cddRk" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T12:31:12.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fQBCnYvQxXwekmyHvJIT" version="20.8.23" type="github">
   <diagram name="第 1 页" id="3tS3NE0jxbSOC0BookcE">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,7 +255,7 @@
             <mxPoint x="240" y="1120" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-144" value="select" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-144" value="SELECT" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="1050" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-146" target="ZRNS-KBWd8ZVCZ68WGnK-148" edge="1">
@@ -301,7 +301,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-153" value="将新连接添加到connfd" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="1620" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZRNS-KBWd8ZVCZ68WGnK-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZRNS-KBWd8ZVCZ68WGnK-155" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -381,6 +381,78 @@
         </mxCell>
         <mxCell id="1raRozILUYv7EW11ZRnK-1" value="备注：&lt;br&gt;1.selec函数：&lt;br&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int select(int maxfdp1, fd_set* readset, fd_set* writeset, fd_set* exceptset,const struct timeval* timeout);&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;readset是表示该描述符可读；一般只要这个就够了，表示对端发来信息，这边可以读取;即可以进行read&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;writeset是表示该描述符可写；这个就是可以对该描述符进行write();&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;exceptset是表示该描述符读写异常;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;上述参数为NULL则表示不检测该项目&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;timteout是如果在该时间内，如果上述条件没有触发，则return 0;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="1655" width="660" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-2" target="D4SJSjXEe5XZ6iG6mVD0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-2" value="POLL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1050" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-6" target="D4SJSjXEe5XZ6iG6mVD0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-6" value="listenfd建立" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-8" target="D4SJSjXEe5XZ6iG6mVD0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-8" value="POLL函数阻塞" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-13" target="D4SJSjXEe5XZ6iG6mVD0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-13" target="D4SJSjXEe5XZ6iG6mVD0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-13" value="是否为新连接，即触发的的listenfd还是connfd" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-15" target="D4SJSjXEe5XZ6iG6mVD0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-15" value="Accept函数获取，connfd" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="1650" />
+              <mxPoint x="840" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-17" value="将connfd添加到" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4SJSjXEe5XZ6iG6mVD0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="1660" />
+              <mxPoint x="1280" y="1660" />
+              <mxPoint x="1280" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-20" value="处理connfd&lt;br&gt;发送过来的消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="1040" as="sourcePoint" />
+            <mxPoint x="800" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="1840" />
+              <mxPoint x="1360" y="1840" />
+              <mxPoint x="1360" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-24" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int poll(struct pollfd* fdarray, unsigned long nfds, int timeout);&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;pollfd就是监听描述符的指针，nfds就是该指针的个数；&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1865" width="400" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
