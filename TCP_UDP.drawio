@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T10:02:30.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SIPtuQwdaDGapkU_L_h5" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T09:30:24.255Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Fs63z_6C3h0C9_lNRaAw" version="20.8.23" type="github">
   <diagram name="第 1 页" id="3tS3NE0jxbSOC0BookcE">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,14 +373,14 @@
             <mxPoint x="40" y="1040" as="sourcePoint" />
             <mxPoint x="40" y="1040" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="40" y="1840" />
-              <mxPoint x="800" y="1840" />
+              <mxPoint x="40" y="2040" />
+              <mxPoint x="800" y="2040" />
               <mxPoint x="800" y="1040" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1raRozILUYv7EW11ZRnK-1" value="备注：&lt;br&gt;1.selec函数：&lt;br&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int select(int maxfdp1, fd_set* readset, fd_set* writeset, fd_set* exceptset,const struct timeval* timeout);&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;readset是表示该描述符可读；一般只要这个就够了，表示对端发来信息，这边可以读取;即可以进行read&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;writeset是表示该描述符可写；这个就是可以对该描述符进行write();&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;exceptset是表示该描述符读写异常;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;上述参数为NULL则表示不检测该项目&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;timteout是如果在该时间内，如果上述条件没有触发，则return 0;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1655" width="660" height="190" as="geometry" />
+        <mxCell id="1raRozILUYv7EW11ZRnK-1" value="备注：&lt;br&gt;1.selec函数：&lt;br&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int select(int maxfdp1, fd_set* readset, fd_set* writeset, fd_set* exceptset,const struct timeval* timeout);&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;readset是表示该描述符可读；一般只要这个就够了，表示对端发来信息，这边可以读取;即可以进行read&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;writeset是表示该描述符可写；这个就是可以对该描述符进行write();&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;exceptset是表示该描述符读写异常;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;上述参数为NULL则表示不检测该项目&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;timteout是如果在该时间内，如果上述条件没有触发，则return 0;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1770" width="660" height="190" as="geometry" />
         </mxCell>
         <mxCell id="D4SJSjXEe5XZ6iG6mVD0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="D4SJSjXEe5XZ6iG6mVD0-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -447,23 +447,43 @@
             <mxPoint x="960" y="1040" as="sourcePoint" />
             <mxPoint x="960" y="1040" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="960" y="1840" />
-              <mxPoint x="1520" y="1840" />
-              <mxPoint x="1520" y="1040" />
+              <mxPoint x="960" y="2040" />
+              <mxPoint x="1840" y="2040" />
+              <mxPoint x="1840" y="1040" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-24" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int poll(struct pollfd* fdarray, unsigned long nfds, int timeout);&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;pollfd就是监听描述符的指针，nfds就是该指针的个数；&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;我们需要记住 poll 识别三类数据：普通、优先级带、高优先级。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;poll数据有：&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;普通数据：所有正规TCP数据和所有UDP数据都被认为是普通数据。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;优先级带数据：TCP的带外数据被认为是优先级带数据&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;高优先级数据：TCP的带外数据&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;TCP的带外数据:&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;也叫加速数据，许多的传输层都具有带外数据(也就是经加速数据)的概念，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;想法就是连端发生了重要的事情，希望迅速的通知给对端。这里的迅速是指这种通知应该在已经排队了的带内数据之前发送。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;也就是说，带外数据具有更高的优先级。带外数据不要求再启动一个连接进行传输，而是使用已有的连接进行传输。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;TCP的带内数据:&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;带内数据就是我们平常传输或者说是口头叫的数据&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1880" width="820" height="330" as="geometry" />
+        <mxCell id="D4SJSjXEe5XZ6iG6mVD0-24" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;int poll(struct pollfd* fdarray, unsigned long nfds, int timeout);&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;pollfd就是监听描述符的指针，nfds就是该指针的个数；&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;我们需要记住 poll 识别三类数据：普通、优先级带、高优先级。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;poll数据有：&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;普通数据：所有正规TCP数据和所有UDP数据都被认为是普通数据。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;优先级带数据：TCP的带外数据被认为是优先级带数据&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;高优先级数据：TCP的带外数据&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;TCP的带外数据:&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;也叫加速数据，许多的传输层都具有带外数据(也就是经加速数据)的概念，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;想法就是连端发生了重要的事情，希望迅速的通知给对端。这里的迅速是指这种通知应该在已经排队了的带内数据之前发送。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;也就是说，带外数据具有更高的优先级。带外数据不要求再启动一个连接进行传输，而是使用已有的连接进行传输。&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;TCP的带内数据:&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;带内数据就是我们平常传输或者说是口头叫的数据&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="970" y="1690" width="820" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="EbPVi9HCwBS56in5SvdU-2" value="int select(int maxfdp1, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;fd_set* readset,&lt;br&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;fd_set* writeset, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;fd_set* exceptset,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;const struct timeval* timeout);" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=default;" vertex="1" parent="1">
+        <mxCell id="EbPVi9HCwBS56in5SvdU-2" value="int select(int maxfdp1, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;fd_set* readset,&lt;br&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;fd_set* writeset, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;fd_set* exceptset,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;const struct timeval* timeout);" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=default;" parent="1" vertex="1">
           <mxGeometry x="310" y="1260" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EbPVi9HCwBS56in5SvdU-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;此处只对readset进行举例说明：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;fdset是 int32 fd[128];&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;也就是128个字节，一共128*8 = 1024个bit；&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;一共检测这么多个，要检测哪个fd就将该bit位置1&lt;br&gt;看一共可以检测多少，sizeof(fd_set)*8即可&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1255" width="280" height="90" as="geometry" />
+        <mxCell id="EbPVi9HCwBS56in5SvdU-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;此处只对readset进行举例说明：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;fdset是 int32 fd[128];&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;也就是128个字节，一共128*8 = 1024个bit；&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;一共检测这么多个，要检测哪个fd就将该bit位置1&lt;br&gt;看一共可以检测多少，sizeof(fd_set)*8即可&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1140" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EbPVi9HCwBS56in5SvdU-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;int poll(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;struct pollfd* fdarray, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;unsigned long nfds, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;int timeout);&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBorderColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="EbPVi9HCwBS56in5SvdU-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;int poll(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;struct pollfd* fdarray, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;unsigned long nfds, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;int timeout);&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBorderColor=default;align=left;" parent="1" vertex="1">
           <mxGeometry x="1235" y="1265" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xfP30E8PO_quScPlo0MI-3" value="SELECT监听数量是有限制的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1080" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xfP30E8PO_quScPlo0MI-4" value="POLL监听的fd数量是没有数量限制的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1080" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xfP30E8PO_quScPlo0MI-7" value="监听个数是设置好的，fdarray[]结构体数组的大小而定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1160" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xfP30E8PO_quScPlo0MI-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2160" as="sourcePoint" />
+            <mxPoint x="40" y="2160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="2840" />
+              <mxPoint x="800" y="2840" />
+              <mxPoint x="800" y="2160" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
