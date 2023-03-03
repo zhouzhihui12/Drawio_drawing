@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T09:47:16.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Jy1QJpW3d799KWiL59tN" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T03:21:22.796Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MX0NnEDgfnRLpdErQyoU" version="20.8.23" type="github">
   <diagram name="第 1 页" id="8jlNIsnWA2ENxNNo2rSE">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,10 +276,41 @@
           <mxGeometry x="402" y="520" width="144" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2DpM_3jne9sqFfvzke5W-2" value="上述操作要在30ms内完成；因为1s采集33帧；&lt;br&gt;这里限制队列长度为10；要等队列里面数据被处理完&lt;br&gt;然后再接收下一帧数据，然后处理。最后是慢在了这里；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry y="880" width="320" height="60" as="geometry" />
+          <mxGeometry x="30" y="705" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2DpM_3jne9sqFfvzke5W-4" value="因此这个解析线程一个循环也要再30ms内完成，&lt;br&gt;但是如果做血流，时间就超过了，就会导致时间不够；&lt;br&gt;因此不能做血流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="360" y="880" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Hq6prVoXnEYSsVbxifs-1" target="-Hq6prVoXnEYSsVbxifs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-1" value="数据采集线程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Hq6prVoXnEYSsVbxifs-3" target="-Hq6prVoXnEYSsVbxifs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-3" value="raw_lock" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Hq6prVoXnEYSsVbxifs-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="1530" />
+              <mxPoint x="30" y="1530" />
+              <mxPoint x="30" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-5" value="raw_unlockl" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Hq6prVoXnEYSsVbxifs-8" target="-Hq6prVoXnEYSsVbxifs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hq6prVoXnEYSsVbxifs-8" value="添加数据到raw_queue" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
