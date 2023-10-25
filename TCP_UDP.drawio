@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T09:30:24.255Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Fs63z_6C3h0C9_lNRaAw" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T07:28:12.134Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="R1c_zVF9zzQfLByIs0o0" version="21.5.2" type="github">
   <diagram name="第 1 页" id="3tS3NE0jxbSOC0BookcE">
-    <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -465,25 +465,202 @@
         <mxCell id="EbPVi9HCwBS56in5SvdU-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;int poll(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;struct pollfd* fdarray, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;unsigned long nfds, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;int timeout);&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBorderColor=default;align=left;" parent="1" vertex="1">
           <mxGeometry x="1235" y="1265" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xfP30E8PO_quScPlo0MI-3" value="SELECT监听数量是有限制的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="xfP30E8PO_quScPlo0MI-3" value="SELECT监听数量是有限制的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="360" y="1080" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xfP30E8PO_quScPlo0MI-4" value="POLL监听的fd数量是没有数量限制的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="xfP30E8PO_quScPlo0MI-4" value="POLL监听的fd数量是没有数量限制的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="1520" y="1080" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xfP30E8PO_quScPlo0MI-7" value="监听个数是设置好的，fdarray[]结构体数组的大小而定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="xfP30E8PO_quScPlo0MI-7" value="监听个数是设置好的，fdarray[]结构体数组的大小而定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1480" y="1160" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xfP30E8PO_quScPlo0MI-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="xfP30E8PO_quScPlo0MI-10" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="2160" as="sourcePoint" />
             <mxPoint x="40" y="2160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="40" y="2840" />
-              <mxPoint x="800" y="2840" />
-              <mxPoint x="800" y="2160" />
+              <mxPoint x="40" y="3720" />
+              <mxPoint x="1240" y="3720" />
+              <mxPoint x="1240" y="2160" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-80" target="WahS84A9gfOQwvpRvCXO-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-80" value="EPOLL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-82" target="WahS84A9gfOQwvpRvCXO-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-82" value="Listenfd建立" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-84" target="WahS84A9gfOQwvpRvCXO-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-84" value="创建EPOLL套接字" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-86" target="WahS84A9gfOQwvpRvCXO-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-86" value="将lisenfd添加到epoll套接字，并且设置监听EPOLL类型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-88" target="WahS84A9gfOQwvpRvCXO-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="2840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-88" value="epoll_wait()阻塞等待监听事件触发" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-90" target="WahS84A9gfOQwvpRvCXO-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="2960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-90" value="EPOLL_IN事件；&lt;br&gt;接收缓冲区有数据，即客户端发来数据了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-92" target="WahS84A9gfOQwvpRvCXO-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-92" value="EPOLLOUT事件；&lt;br&gt;有数据需要发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-93" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-90" target="WahS84A9gfOQwvpRvCXO-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="2780" as="sourcePoint" />
+            <mxPoint x="980" y="2780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="2780" />
+              <mxPoint x="820" y="2780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-94" value="将某些数据调用send或者write将数据发送给对方" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-96" target="WahS84A9gfOQwvpRvCXO-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-96" value="其它EPOLL事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-97" value="这里不对其它的EPOLL事件做解析和处理，这里先只管简单的收发" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-100" target="WahS84A9gfOQwvpRvCXO-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-100" target="WahS84A9gfOQwvpRvCXO-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="3310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="3000" />
+              <mxPoint x="500" y="3200" />
+              <mxPoint x="380" y="3200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-100" value="触发的是Listenfd" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="2660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="3120" />
+              <mxPoint x="250" y="2660" />
+              <mxPoint x="580" y="2660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-102" value="调用Accept得到connfd，connfd增加监听EPOLL类型，然后添加到EPOLL监听事件中&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-103" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="3040" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-104" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-106" target="WahS84A9gfOQwvpRvCXO-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="3389" as="sourcePoint" />
+            <mxPoint x="520" y="3389" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="3329" />
+              <mxPoint x="520" y="3329" />
+              <mxPoint x="520" y="3359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-106" target="WahS84A9gfOQwvpRvCXO-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-106" value="read读取到正常信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="3409" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-107" value="read返回-1，即读取出错了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3409" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-109" target="WahS84A9gfOQwvpRvCXO-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-109" value="调用Read(）去读取内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-110" value="read=0，即对端发来关闭信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3409" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-111" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-110" target="WahS84A9gfOQwvpRvCXO-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="3540" as="sourcePoint" />
+            <mxPoint x="460" y="3510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="3520" />
+              <mxPoint x="520" y="3520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-112" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WahS84A9gfOQwvpRvCXO-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="3520" as="sourcePoint" />
+            <mxPoint x="450" y="3560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="2640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="3650" />
+              <mxPoint x="80" y="3650" />
+              <mxPoint x="80" y="2640" />
+              <mxPoint x="500" y="2640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-114" value="close(connfd),然后将该connfd从EPOLL监听里面移出去" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="3570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WahS84A9gfOQwvpRvCXO-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="2650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="3565" />
+              <mxPoint x="150" y="2650" />
+              <mxPoint x="580" y="2650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-116" value="发送缓冲区不满就可以触发EPOLLOUT；这里如果读取足够的消息就可以将fd添加到EPOLLOUT；去发送" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="3520" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WahS84A9gfOQwvpRvCXO-117" value="&lt;div&gt;客户端连接场景&lt;/div&gt;&lt;div&gt;触发条件：客户端connect上服务端后，得到fd，这时候把fd添加到epoll 事件池里面后，因为连接可写，会触发EPOLLOUT事件&lt;/div&gt;&lt;div&gt;客户端发包场景&lt;/div&gt;&lt;div&gt;触发条件：缓冲区从满到不满，会触发EPOLLOUT事件&lt;/div&gt;&lt;div&gt;典型应用场景(数据包发送问题)：&lt;/div&gt;&lt;div&gt;数据包发送逻辑：将数据包发完内核缓冲区–&amp;gt;进而由内核再将缓冲区的内容发送出去；这边send只是做了第一部分的工作，&lt;/div&gt;&lt;div&gt;如果缓存区满的话send将会得到已发送的数据大小(成功放到缓冲区的)，而不是整个数据包大小。&lt;/div&gt;&lt;div&gt;这种情况我们可以借助EPOLLOUT事件加以解决：如果send部分成功，则表示缓存区满了，那么把剩下的部分交给epoll，&lt;/div&gt;&lt;div&gt;当检测到EPOLLOUT事件后，再将剩余的包发送出去。&lt;/div&gt;&lt;div&gt;重新注册EPOLLOUT事件&lt;/div&gt;&lt;div&gt;触发条件：如果当连接可用后，且缓存区不满的情况下，调用epoll_ctl将fd重新注册到epoll事件池(使用EPOLL_CTL_MOD)，&lt;/div&gt;&lt;div&gt;这时也会触发EPOLLOUT时间。&lt;/div&gt;&lt;div&gt;典型应用场景：&lt;/div&gt;&lt;div&gt;send或write发包函数会涉及系统调用，存在一定开销，如果能将数据包聚合起来，&lt;/div&gt;&lt;div&gt;然后调用writev将多个数据包一并发送，则可以减少系统调用次数，提高效率。&lt;/div&gt;&lt;div&gt;这时EPOLLOUT事件就派上用场了：当发包时，可以将先数据包发到数据buffer(用户缓存区)中存放，&lt;/div&gt;&lt;div&gt;然后通过重新注册EPOLLOUT事件，从而触发EPOLLOUT事件时，再将数据包一起通过writev发送出去。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3070" width="690" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
